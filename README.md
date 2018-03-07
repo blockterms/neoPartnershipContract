@@ -20,7 +20,8 @@
   the existing financial institutions.
   
   blockterms leverages blockchain, digital currencies and computer algorithms to show how multiple parties can 
-  come together and create a ownership structure on the blockchain to provide pricing transparency.
+  come together and create a ownership structure on public blockchain behind a Digital currency address to 
+  provide pricing and ownership transparency.
   
   There are two important parts for this system.
   
