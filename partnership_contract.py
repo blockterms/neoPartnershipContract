@@ -227,14 +227,14 @@ def print_info(adr):
     msg = concat(msg, f)
     Notify(msg)
 
-    json_like_string = concat('{ "currency" : "', currency)
-    json_like_string = concat(json_like_string, '", "flatfee_partners" : "')
+    json_like_string = concat('["', currency)
+    json_like_string = concat(json_like_string, '","')
     json_like_string = concat(json_like_string, flatfees_struc)
-    json_like_string = concat(json_like_string, '", "percentage_partners" : "')
+    json_like_string = concat(json_like_string, '","')
     json_like_string = concat(json_like_string, partnership_struc)
-    json_like_string = concat(json_like_string, '", "webpage" : "')
+    json_like_string = concat(json_like_string, '", "')
     json_like_string = concat(json_like_string, webpage)
-    json_like_string = concat(json_like_string, '"}')
+    json_like_string = concat(json_like_string, '"]')
 
     return json_like_string
 
