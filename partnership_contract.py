@@ -16,7 +16,9 @@ from boa.builtins import range, concat, substr
 # This can be found in ``neo-python`` with the wallet open, use ``wallet`` command
 # Use the correct one for private or test or main network
 #
-OWNER = b'\x07Q\xe9\xe7\x943\x8dAf\x89\x90\xb7\x96\xf8\xbc\xf7\xf1\xca~\xf9'
+# OWNER = b'\x07Q\xe9\xe7\x943\x8dAf\x89\x90\xb7\x96\xf8\xbc\xf7\xf1\xca~\xf9'
+OWNER = b'Z\x01\xcb\xe5\xd3\xe5\x83\x81\xe3%\xef<\xcb8?>i!\xc0\xb0'
+
 arg_error = 'Incorrect Arg Length'
 ctx = GetContext()
 

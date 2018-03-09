@@ -151,6 +151,20 @@ Make sure you run this to be able to see debug information
 > config sc-events on 
 
 
+## Contract deployed on Testnet
+
+this is the tx
+
+f65a67de355113755ada6afbb4b6008211807d8e512af92b0d6e5334a7b1985d
+
+https://neoscan-testnet.io/transaction/f65a67de355113755ada6afbb4b6008211807d8e512af92b0d6e5334a7b1985d
+
+this is the contract you can find it from neo-python prompt
+
+> contract search blockterms
+
+0x1185f3c0dde8136966b30bed835b78917a78fd96
+
 ## Links
 
 https://blockterms.com
@@ -162,3 +176,5 @@ https://github.com/CityOfZion/python-smart-contract-workshop
 https://github.com/CityOfZion/neo-python
 
 https://neo-python.readthedocs.io/en/latest/
+
+
